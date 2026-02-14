@@ -1,0 +1,29 @@
+{
+  "name": "immortal-cultivation-mini-program",
+  "version": "1.0.0",
+  "description": "指尖修仙传 - 微信小程序修仙游戏",
+  "main": "index.js",
+  "scripts": {
+    "dev": "coze dev",
+    "build": "coze build",
+    "build:weapp": "coze build:weapp",
+    "build:web": "coze build:web"
+  },
+  "dependencies": {
+    "@tarojs/components": "^4.1.9",
+    "@tarojs/runtime": "^4.1.9",
+    "@tarojs/taro": "^4.1.9",
+    "@tarojs/plugin-framework-react": "^4.1.9",
+    "@tarojs/plugin-platform-weapp": "^4.1.9",
+    "@tarojs/plugin-platform-h5": "^4.1.9",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^4.1.18",
+    "weapp-tailwindcss": "^3.3.1"
+  },
+  "devDependencies": {
+    "@tarojs/cli": "^4.1.9",
+    "@tarojs/webpack5-runner": "^4.1.9",
+    "typescript": "^5.4.5"
+  }
+}
